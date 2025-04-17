@@ -1,13 +1,13 @@
 var globalVar = "I'm global";
 
-function scopeTest() {
-  var functionVar = "I'm local to the function";
+function scopeTesttt() {
+  var functionVarr= "I'm local  function";
   if (true) {
-    let blockVar = "I'm block-scoped";
-    console.log(blockVar);
+    let blockedVarr = "I'm block";
+    console.log(blockedVar);
   }
   console.log(globalVar);
-  console.log(functionVar);
+  console.log(functionVarr);
 }
 
-scopeTest();
+scopeTesttt();
